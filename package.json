@@ -4,21 +4,20 @@
     "description": "A simple chat app with WebSocket",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js",
-      "dev": "nodemon app.js",
-      "test": "mocha"
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "mocha"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "cors": "^2.8.5",
-      "express": "^4.21.2",
-      "socket.io": "^4.8.1",
-      "dotenv": "^10.0.0"
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.21.2",
+        "socket.io": "^4.8.1"
     },
     "devDependencies": {
-      "nodemon": "^2.0.4"
+        "nodemon": "^2.0.4"
     }
-  }
-  
+}
